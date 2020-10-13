@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		171EFEB925203820003A2C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EFEB825203820003A2C00 /* AppDelegate.swift */; };
 		171EFEBB25203820003A2C00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EFEBA25203820003A2C00 /* SceneDelegate.swift */; };
-		171EFEBD25203820003A2C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EFEBC25203820003A2C00 /* ViewController.swift */; };
 		171EFEC025203820003A2C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171EFEBE25203820003A2C00 /* Main.storyboard */; };
 		171EFEC225203820003A2C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EFEC125203820003A2C00 /* Assets.xcassets */; };
 		171EFEC525203820003A2C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171EFEC325203820003A2C00 /* LaunchScreen.storyboard */; };
 		171EFED025203821003A2C00 /* drinkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EFECF25203821003A2C00 /* drinkAppTests.swift */; };
 		171EFEDB25203821003A2C00 /* drinkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EFEDA25203821003A2C00 /* drinkAppUITests.swift */; };
+		1721F52325238CC900727A7B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1721F52225238CC900727A7B /* FirebaseFirestoreSwift */; };
+		1721F52E2523906700727A7B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1721F52D2523906700727A7B /* FirebaseFirestore */; };
+		1721F53F2523984F00727A7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1721F53E2523984F00727A7B /* GoogleService-Info.plist */; };
+		173E2DF72529A3070070CA63 /* finalDrinkReuseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E2DF62529A3070070CA63 /* finalDrinkReuseCell.swift */; };
+		174D89D125274E1000706A0B /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 174D89D025274E1000706A0B /* Menu.plist */; };
+		177F6F51252069900048AB29 /* introduceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F6F50252069900048AB29 /* introduceVC.swift */; };
+		177F6F6A25209AD20048AB29 /* drinkResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F6F6925209AD20048AB29 /* drinkResultVC.swift */; };
+		17A375E82528593B0075B07E /* DrinkDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A375E72528593B0075B07E /* DrinkDB.swift */; };
+		17A375ED25285AB40075B07E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A375EC25285AB40075B07E /* Order.swift */; };
+		17BC91CA2520E8F2000AFC31 /* showDrinkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BC91C92520E8F2000AFC31 /* showDrinkVC.swift */; };
+		17C4519E2524351700E3046F /* PassChooseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C4519D2524351700E3046F /* PassChooseData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		171EFEB525203820003A2C00 /* drinkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171EFEB825203820003A2C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		171EFEBA25203820003A2C00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		171EFEBC25203820003A2C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		171EFEBF25203820003A2C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171EFEC125203820003A2C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171EFEC425203820003A2C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,16 @@
 		171EFED625203821003A2C00 /* drinkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drinkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		171EFEDA25203821003A2C00 /* drinkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkAppUITests.swift; sourceTree = "<group>"; };
 		171EFEDC25203821003A2C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1721F5122522B9CE00727A7B /* DFYun.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = DFYun.ttc; sourceTree = "<group>"; };
+		1721F53E2523984F00727A7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		173E2DF62529A3070070CA63 /* finalDrinkReuseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalDrinkReuseCell.swift; sourceTree = "<group>"; };
+		174D89D025274E1000706A0B /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
+		177F6F50252069900048AB29 /* introduceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introduceVC.swift; sourceTree = "<group>"; };
+		177F6F6925209AD20048AB29 /* drinkResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkResultVC.swift; sourceTree = "<group>"; };
+		17A375E72528593B0075B07E /* DrinkDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDB.swift; sourceTree = "<group>"; };
+		17A375EC25285AB40075B07E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		17BC91C92520E8F2000AFC31 /* showDrinkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showDrinkVC.swift; sourceTree = "<group>"; };
+		17C4519D2524351700E3046F /* PassChooseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassChooseData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1721F52325238CC900727A7B /* FirebaseFirestoreSwift in Frameworks */,
+				1721F52E2523906700727A7B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +120,22 @@
 		171EFEB725203820003A2C00 /* drinkApp */ = {
 			isa = PBXGroup;
 			children = (
+				1721F53E2523984F00727A7B /* GoogleService-Info.plist */,
 				171EFEB825203820003A2C00 /* AppDelegate.swift */,
 				171EFEBA25203820003A2C00 /* SceneDelegate.swift */,
-				171EFEBC25203820003A2C00 /* ViewController.swift */,
 				171EFEBE25203820003A2C00 /* Main.storyboard */,
+				17C4519D2524351700E3046F /* PassChooseData.swift */,
+				17A375EC25285AB40075B07E /* Order.swift */,
+				17A375E72528593B0075B07E /* DrinkDB.swift */,
+				177F6F50252069900048AB29 /* introduceVC.swift */,
+				17BC91C92520E8F2000AFC31 /* showDrinkVC.swift */,
+				177F6F6925209AD20048AB29 /* drinkResultVC.swift */,
+				173E2DF62529A3070070CA63 /* finalDrinkReuseCell.swift */,
 				171EFEC125203820003A2C00 /* Assets.xcassets */,
 				171EFEC325203820003A2C00 /* LaunchScreen.storyboard */,
 				171EFEC625203820003A2C00 /* Info.plist */,
+				174D89D025274E1000706A0B /* Menu.plist */,
+				1721F5122522B9CE00727A7B /* DFYun.ttc */,
 			);
 			path = drinkApp;
 			sourceTree = "<group>";
@@ -144,6 +174,10 @@
 			dependencies = (
 			);
 			name = drinkApp;
+			packageProductDependencies = (
+				1721F52225238CC900727A7B /* FirebaseFirestoreSwift */,
+				1721F52D2523906700727A7B /* FirebaseFirestore */,
+			);
 			productName = drinkApp;
 			productReference = 171EFEB525203820003A2C00 /* drinkApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +249,9 @@
 				Base,
 			);
 			mainGroup = 171EFEAC25203820003A2C00;
+			packageReferences = (
+				1721F52125238CC900727A7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 171EFEB625203820003A2C00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				171EFEC525203820003A2C00 /* LaunchScreen.storyboard in Resources */,
+				1721F53F2523984F00727A7B /* GoogleService-Info.plist in Resources */,
 				171EFEC225203820003A2C00 /* Assets.xcassets in Resources */,
 				171EFEC025203820003A2C00 /* Main.storyboard in Resources */,
+				174D89D125274E1000706A0B /* Menu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171EFEBD25203820003A2C00 /* ViewController.swift in Sources */,
+				17C4519E2524351700E3046F /* PassChooseData.swift in Sources */,
 				171EFEB925203820003A2C00 /* AppDelegate.swift in Sources */,
+				17A375ED25285AB40075B07E /* Order.swift in Sources */,
+				173E2DF72529A3070070CA63 /* finalDrinkReuseCell.swift in Sources */,
+				177F6F51252069900048AB29 /* introduceVC.swift in Sources */,
+				177F6F6A25209AD20048AB29 /* drinkResultVC.swift in Sources */,
 				171EFEBB25203820003A2C00 /* SceneDelegate.swift in Sources */,
+				17A375E82528593B0075B07E /* DrinkDB.swift in Sources */,
+				17BC91CA2520E8F2000AFC31 /* showDrinkVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +638,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1721F52125238CC900727A7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = "6.32-spm-beta";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1721F52225238CC900727A7B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1721F52125238CC900727A7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		1721F52D2523906700727A7B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1721F52125238CC900727A7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 171EFEAD25203820003A2C00 /* Project object */;
 }

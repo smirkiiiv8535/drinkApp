@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
-@main
+@UIApplicationMain
+
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        UINavigationBar.appearance().barTintColor = UIColor(red: 1/255, green: 59/255, blue: 79/255, alpha: 1)
+        UINavigationBar.appearance().tintColor = UIColor(red: 183/255, green: 144/255, blue: 56/255, alpha: 1)
         return true
     }
 
